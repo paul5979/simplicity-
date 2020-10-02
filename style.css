@@ -2,4 +2,15 @@ body {
     background-color: #F7DCE4;
     font-family: Avenir;
 
+
+}
+
+
+#infografik {
+    background-color: rgba(255, 255, 255, 0.39);
+    background-size: cover;
+    background-position: 50% 100%;
+    background-attachment: fixed;
+    background-image: url(infografik/mark.jpg);
+    background-blend-mode: overlay;
 }
