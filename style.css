@@ -5,6 +5,10 @@ body {
 
 }
 
+img {
+    width: 100%;
+}
+
 #splash {
     background-size: cover;
 
@@ -12,8 +16,21 @@ body {
 }
 
 
+.navbar-brand {
+    width: 150px;
+}
 
+.splash_logo {
+    width: 50%;
+}
 
+.some {
+    width: 35px;
+}
+
+.footer_logo {
+    width: 60%;
+}
 
 
 
