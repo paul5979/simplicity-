@@ -47,3 +47,14 @@ img {
 #infografik h2 {
     font-size: 5rem;
 }
+
+
+
+#happy {
+    background-color: rgba(255, 255, 255, 0.39);
+    background-size: cover;
+    background-position: 50% 100%;
+    background-attachment: fixed;
+    background-image: url(billeder/happy_girl.jpg);
+    /*    background-blend-mode: overlay;*/
+}
