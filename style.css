@@ -132,7 +132,7 @@ img {
     animation: spin 3s linear infinite;
 }
 
-.rotate_05 {
+#splash .rotate_05 {
     position: relative;
     top: -50%;
     left: 20%;
@@ -190,7 +190,7 @@ img {
 
 
 
-
+/***** SLUT roter animationer på splash SLUT ****/
 
 
 #infografik {
