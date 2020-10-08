@@ -82,6 +82,18 @@ img {
 }
 
 
+button {
+    color: #FFA7C1;
+    border-color: #FFA7C1;
+    font-family: Avenir;
+    padding: 10px 20px 10px 20px;
+
+}
+
+button:hover {
+    opacity: 50%;
+}
+
 /***** roter animationer på splash ****/
 
 #splash .rotate_01 {
@@ -190,18 +202,10 @@ img {
 
 
 
+
 /***** SLUT roter animationer på splash SLUT ****/
 
-
-#infografik {
-    background-color: rgba(255, 255, 255, 0.39);
-    background-size: cover;
-    background-position: 50% 100%;
-    background-attachment: fixed;
-    background-image: url(infografik/mark.jpg);
-    /*    background-blend-mode: overlay;*/
-}
-
+/***** GENERELLE TEKST INDSTILLINGER ****/
 
 #splash h1 {
     font-size: 3rem;
@@ -230,6 +234,33 @@ p {
 }
 
 
+/***** GENERELLE TEKST INDSTILLINGER SLUT ****/
+
+
+
+
+
+/***** PRODUKTER ****/
+#produkt1 img {
+    width: 80%;
+    padding-left: 100px;
+}
+
+
+#produkt2 img {
+    width: 80%;
+    padding-left: 100px;
+
+
+}
+
+
+/***** PRODUKTER SLUT ****/
+
+
+
+/***** BACKGROUND FIXED BILLEDER ****/
+
 
 #happy {
     /*    background-color: rgba(255, 255, 255, 0.39);*/
@@ -242,6 +273,15 @@ p {
     /*    background-blend-mode: overlay;*/
 }
 
+#infografik {
+    background-color: rgba(255, 255, 255, 0.39);
+    background-size: cover;
+    background-position: 50% 100%;
+    background-attachment: fixed;
+    background-image: url(infografik/mark.jpg);
+    /*    background-blend-mode: overlay;*/
+}
+
 
 
 #yoga {
@@ -250,8 +290,20 @@ p {
     background-attachment: fixed;
     background-image: url(billeder/yoga_stilling.jpg);
 
-    /*    background-blend-mode: overlay;*/
+
 }
+
+/***** BACKGROUND FIXED BILLEDER SLUT ****/
+
+
+
+
+
+/***** MEDIA QUERIES IPAD ****/
+
+
+
+
 
 
 @media only screen and (min-width: 768px) {
@@ -265,15 +317,23 @@ p {
 
 
 @media only screen and (min-width: 1024px) {
+
+    h1 {
+        font-size: 3rem;
+    }
+
+
+    p {
+        font-size: 1.2rem;
+    }
+
+
     .citat h1 {
         font-size: 6rem;
     }
 
 
 }
-
-
-
 
 #infografik {
     background-color: rgba(255, 255, 255, 0.39);
@@ -285,15 +345,6 @@ p {
 }
 
 
-h1 {
-    font-size: 3rem;
-}
-
-
-p {
-    font-size: 1.2rem;
-}
-
 
 #infografik h3 {
     font-size: 2.5rem;
@@ -302,7 +353,6 @@ p {
 #infografik h2 {
     font-size: 5rem;
 }
-
 
 
 #happy {
@@ -328,12 +378,8 @@ p {
 }
 
 
+
 @media only screen and (min-width: 768px) {
-
-    .citat h1 {
-        font-size: 4rem;
-    }
-
     /***** roter animationer på splash ****/
 
     #splash .rotate_01 {
@@ -446,6 +492,11 @@ p {
 
 }
 
+/***** MEDIA QUERIES IPAD SLUT ****/
+
+
+
+/***** MEDIA QUERIES WEB ****/
 
 @media only screen and (min-width: 1024px) {
     .citat h1 {
@@ -562,8 +613,6 @@ p {
         }
     }
 
-
-
     /***** SLUT roter animationer på splash SLUT ****/
 
 
@@ -575,4 +624,42 @@ p {
         font-size: 2rem;
     }
 
+
+    #produkt1 img {
+        width: 80%;
+        padding-left: 100px;
+    }
+
+
+    #produkt2 img {
+        width: 80%;
+        padding-left: 100px;
+
+
+    }
+
+    #produkt1 p {
+        padding-right: 100px;
+
+    }
+
+    #produkt1 h2 {
+        padding-top: 250px;
+
+    }
+
+    #produkt2 p {
+        padding-left: 100px;
+
+    }
+
+
+    #produkt2 h2 {
+        padding-top: 250px;
+        padding-left: 100px;
+
+    }
+
 }
+
+/***** MEDIA QUERIES WEB SLUT ****/
