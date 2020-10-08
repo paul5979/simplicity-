@@ -15,7 +15,7 @@ img {
 }
 
 #splash {
-    background-size: cover;
+    height: 100vh;
 }
 
 .navbar-brand {
