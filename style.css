@@ -10,6 +10,8 @@ body {
     scroll-behavior: smooth;
 }
 
+
+
 img {
     width: 100%;
 }
@@ -93,6 +95,60 @@ button {
 button:hover {
     opacity: 50%;
 }
+
+
+#storytelling img {
+    margin-bottom: 80px;
+
+
+}
+
+#friskenyheder h2 {
+    margin-top: 80px;
+}
+
+
+#produkt2 img {
+    margin-bottom: 80px;
+
+
+}
+
+
+#godstartpaadagen h2 {
+    margin-top: 80px;
+
+
+}
+
+#godstartpaadagen button {
+    margin-bottom: 80px;
+
+
+}
+
+#yogaevent h2 {
+    margin-top: 80px;
+
+
+}
+
+#yogaevent button {
+    margin-bottom: 80px;
+
+
+}
+
+
+
+#socialemedier img {
+    margin-bottom: 80px;
+
+
+}
+
+
+
 
 /***** roter animationer på splash ****/
 
@@ -659,6 +715,20 @@ p {
         padding-left: 100px;
 
     }
+
+    #storytelling h2 {
+        padding-left: 100px;
+        padding-top: 80px;
+
+    }
+
+    #storytelling p {
+
+        padding-left: 100px;
+
+    }
+
+
 
 }
 
