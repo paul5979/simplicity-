@@ -1,6 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html,
 body {
     background-color: #F7DCE4;
     font-family: Avenir;
+    scroll-behavior: smooth;
 }
 
 img {
@@ -11,9 +18,9 @@ img {
     background-size: cover;
 }
 
-
 .navbar-brand {
     width: 150px;
+
 }
 
 .splash_logo {
@@ -26,6 +33,10 @@ img {
 
 .footer_logo {
     width: 60%;
+}
+
+.citat h1 {
+    font-size: 3rem;
 }
 
 
@@ -41,7 +52,7 @@ img {
 
 
 h1 {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 
@@ -80,4 +91,23 @@ p {
     background-image: url(billeder/yoga_stilling.jpg);
 
     /*    background-blend-mode: overlay;*/
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .citat h1 {
+        font-size: 4rem;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .citat h1 {
+        font-size: 6rem;
+    }
+
+
 }
