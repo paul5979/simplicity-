@@ -393,7 +393,7 @@ p {
         width: 80%;
     }
 
-    /***** roter animationer på splash ****/
+    /***** BOUNCE animationer på splash ****/
 
     #splash .bounce_01 {
         position: absolute;
@@ -498,7 +498,7 @@ p {
         }
     }
 
-    /***** SLUT roter animationer på splash SLUT ****/
+    /***** SLUT BOUNCE animationer på splash SLUT ****/
 
 
     #splash h1 {
