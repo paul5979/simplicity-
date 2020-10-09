@@ -35,6 +35,39 @@ img {
     font-size: 1rem;
 }
 
+
+
+.navbar-brand {
+    width: 200px;
+
+}
+
+
+
+nav {
+    font-size: 1.4rem;
+
+}
+
+
+.navbar {
+    position: fixed;
+    width: 100%;
+
+}
+
+.navbar-light .navbar-toggler {
+
+    border-style: none;
+}
+
+
+.navbar-toggler-icon {
+    width: 2em;
+    height: 2em;
+
+}
+
 .some {
     width: 35px;
 }
@@ -503,7 +536,7 @@ p {
 
     #splash h1 {
         font-size: 5rem;
-        margin-top: 150px;
+        margin-top: 200px;
         margin-right: 280px;
         margin-left: 280px;
 
