@@ -395,107 +395,106 @@ p {
 
     /***** roter animationer på splash ****/
 
-    #splash .rotate_01 {
-        position: relative;
-        top: 25%;
-        right: 40%;
-        width: 80px;
-        height: 80px;
-        margin: -60px 0 0 0px;
-        -webkit-animation: spin 3s linear infinite;
-        -moz-animation: spin 3s linear infinite;
-        animation: spin 3s linear infinite;
-    }
-
-    #splash .rotate_02 {
-        position: relative;
-        top: -40%;
-        right: 55%;
+    #splash .bounce_01 {
+        position: absolute;
+        top: 20%;
+        right: 10%;
         width: 180px;
         height: 180px;
         margin: -60px 0 0 0px;
-        -webkit-animation: spin 3s linear infinite;
-        -moz-animation: spin 3s linear infinite;
-        animation: spin 3s linear infinite;
+        animation: bounce 2s infinite;
+        animation-delay: .3s;
+
     }
 
-    #splash .rotate_03 {
-        position: relative;
-        top: 5%;
-        right: -15%;
-        width: 100px;
-        height: 100px;
+    #splash .bounce_02 {
+        position: absolute;
+        top: 20%;
+        right: 75%;
+        width: 300px;
+        height: 300px;
         margin: -60px 0 0 0px;
-        -webkit-animation: spin 3s linear infinite;
-        -moz-animation: spin 3s linear infinite;
-        animation: spin 3s linear infinite;
+        animation: bounce 2s infinite;
+        animation-delay: .6s;
     }
 
-    #splash .rotate_04 {
-        position: relative;
-        top: 30%;
-        left: -20%;
-        width: 50px;
-        height: 50px;
+    #splash .bounce_03 {
+        position: absolute;
+        top: 90%;
+        right: 35%;
+        width: 120px;
+        height: 120px;
         margin: -60px 0 0 0px;
-        -webkit-animation: spin 3s linear infinite;
-        -moz-animation: spin 3s linear infinite;
-        animation: spin 3s linear infinite;
+        animation: bounce 2s infinite;
+        animation-delay: .9s;
+
     }
 
-    #splash .rotate_05 {
-        position: relative;
-        top: -40%;
-        left: -2%;
+    #splash .bounce_04 {
+        position: absolute;
+        top: 75%;
+        left: 20%;
+        width: 90px;
+        height: 90px;
+        margin: -60px 0 0 0px;
+        animation: bounce 2s infinite;
+        animation-delay: .12s;
+
+    }
+
+    #splash .bounce_05 {
+        position: absolute;
+        top: 70%;
+        left: 80%;
         width: 80px;
         height: 80px;
         margin: -60px 0 0 0px;
-        -webkit-animation: spin 3s linear infinite;
-        -moz-animation: spin 3s linear infinite;
-        animation: spin 3s linear infinite;
+        animation: bounce 2s infinite;
+        animation-delay: .18s;
+
     }
 
 
-    #splash .rotate_06 {
-        position: relative;
-        top: -45%;
-        left: -30%;
+    #splash .bounce_06 {
+        position: absolute;
+        top: 25%;
+        left: 30%;
         width: 50px;
         height: 50px;
         margin: -60px 0 0 0px;
-        -webkit-animation: spin 3s linear infinite;
-        -moz-animation: spin 3s linear infinite;
-        animation: spin 3s linear infinite;
+        animation: bounce 2s infinite;
+        animation-delay: .24s;
+
     }
 
-    #splash .rotate_07 {
-        position: relative;
-        top: 20%;
-        left: -15%;
-        width: 40px;
-        height: 40px;
+    #splash .bounce_07 {
+        position: absolute;
+        top: 90%;
+        left: 89%;
+        width: 60px;
+        height: 60px;
         margin: -60px 0 0 0px;
-        -webkit-animation: spin 3s linear infinite;
-        -moz-animation: spin 3s linear infinite;
-        animation: spin 3s linear infinite;
+        animation: bounce 2s infinite;
+        animation-delay: .32s;
+
     }
 
 
-    @-webkit-keyframes spin {
+    @keyframes bounce {
+
+        0%,
+        20%,
+        60%,
         100% {
-            -webkit-transform: rotate(360deg);
+            transform: translateY(0);
         }
-    }
 
-    @-moz-keyframes spin {
-        100% {
-            -webkit-transform: rotate(360deg);
+        40% {
+            transform: translateY(-30px);
         }
-    }
 
-    @keyframes spin {
-        100% {
-            -webkit-transform: rotate(360deg);
+        80% {
+            transform: translateY(-20px);
         }
     }
 
