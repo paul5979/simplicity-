@@ -91,6 +91,12 @@ nav {
     font-size: 3rem;
 }
 
+#infografik h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+
 button {
     color: #FFA7C1;
     border-color: #FFA7C1;
@@ -186,13 +192,8 @@ p {
 }
 
 
-#infografik h3 {
-    font-size: 2.5rem;
-}
 
-#infografik h2 {
-    font-size: 5rem;
-}
+
 
 
 /***** GENERELLE TEKST INDSTILLINGER SLUT ****/
@@ -286,6 +287,13 @@ p {
     .citat h1 {
         font-size: 4rem;
     }
+
+
+    #infografik h2 {
+        font-size: 4rem;
+        text-align: start;
+    }
+
 
 
     #spisloes h1 {
