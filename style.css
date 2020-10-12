@@ -177,7 +177,7 @@ button:hover {
 
 #splash h1 {
     font-size: 2rem;
-    margin-top: 150px;
+    margin-top: 190px;
 
 }
 
@@ -226,7 +226,7 @@ p {
 
 #splash .bounce_03 {
     position: absolute;
-    top: 40%;
+    top: 45%;
     right: 10%;
     width: 100px;
     height: 100px;
@@ -256,7 +256,7 @@ p {
 
 #splash .bounce_06 {
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 40%;
     width: 60px;
     height: 60px;
@@ -355,7 +355,7 @@ p {
 
     #splash h1 {
         font-size: 3rem;
-        margin-top: 100px;
+        margin-top: 250px;
 
     }
 
