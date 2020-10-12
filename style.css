@@ -200,6 +200,87 @@ p {
 /***** GENERELLE TEKST INDSTILLINGER SLUT ****/
 
 
+/***** BOUNCE animationer væk på splash ****/
+
+.row {
+    flex-shrink: none;
+}
+
+#splash .bounce_01 {
+    position: absolute;
+    top: 10%;
+    right: 85%;
+    width: 100px;
+    height: 100px;
+}
+
+
+#splash .bounce_02 {
+    position: absolute;
+    top: 40%;
+    right: 55%;
+    width: 250px;
+    height: 250px;
+}
+
+
+#splash .bounce_03 {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+#splash .bounce_04 {
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    width: 60px;
+    height: 60px;
+
+}
+
+
+#splash .bounce_05 {
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    width: 100px;
+    height: 100px;
+
+}
+
+
+#splash .bounce_06 {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    width: 60px;
+    height: 60px;
+}
+
+#splash .bounce_07 {
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    width: 60px;
+    height: 60px;
+
+
+
+
+}
+
+
+/***** BOUNCE animationer væk på splash SLUT ****/
+
+
+
+
+
 
 
 
