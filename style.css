@@ -15,6 +15,9 @@ img {
 }
 
 
+/**** SPLASH ***/
+
+
 #splash {
     height: 100vh;
 }
@@ -32,6 +35,28 @@ img {
 }
 
 
+.splash_logo {
+    width: 50%;
+}
+
+
+#splash h1 {
+    font-size: 2rem;
+    margin-top: 190px;
+
+}
+
+#splash h2 {
+    font-size: 0.8rem;
+    z-index: 1000;
+
+}
+
+/**** SPLASH SLUT ***/
+
+
+
+/**** NAVBAR ***/
 
 .navbar-brand {
     width: 180px;
@@ -42,9 +67,6 @@ img {
     height: 2em;
 
 }
-
-
-
 
 
 nav {
@@ -58,9 +80,22 @@ nav {
 
 }
 
-.splash_logo {
-    width: 50%;
+
+.navbar-nav .nav-link {
+    padding-left: 20px;
+
 }
+
+.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, 0.39);
+    border: none;
+}
+
+
+/**** NAVBAR SLUT ***/
+
+
+/**** FOOTER  ***/
 
 .some {
     width: 35px;
@@ -80,6 +115,10 @@ nav {
     font-size: 1rem;
     /* margin-left: 50px;*/
 }
+
+
+
+/**** FOOTER SLUT ***/
 
 .form-control {
     /*    margin-left: 50px;*/
@@ -115,19 +154,12 @@ button:hover {
 #storytelling img {
     margin-bottom: 80px;
 
-
 }
 
 #friskenyheder h2 {
     margin-top: 80px;
 }
 
-
-#produkt2 img {
-    margin-bottom: 80px;
-
-
-}
 
 
 #godstartpaadagen h2 {
@@ -158,50 +190,26 @@ button:hover {
 
 #socialemedier img {
     margin-bottom: 40px;
-
-
 }
 
 #spisloes h1 {
     margin-bottom: 100px;
     margin-top: 100px;
-
-
+    font-size: 2.8rem;
 
 }
-
-
 
 
 
 /***** GENERELLE TEKST INDSTILLINGER ****/
 
-#splash h1 {
-    font-size: 2rem;
-    margin-top: 190px;
-
-}
-
-#splash h2 {
-    font-size: 0.8rem;
-    z-index: 1000;
-
-}
 
 
 p {
     font-size: 1.2rem;
 }
 
-.navbar-nav .nav-link {
-    padding-left: 20px;
 
-}
-
-.navbar-light .navbar-toggler {
-    color: rgba(255, 255, 255, 0.39);
-    border: none;
-}
 
 /***** GENERELLE TEKST INDSTILLINGER SLUT ****/
 
@@ -300,7 +308,10 @@ p {
 #produkt2 img {
     width: 80%;
     padding-left: 100px;
+}
 
+#produkt2 img {
+    margin-bottom: 80px;
 
 }
 
@@ -373,19 +384,20 @@ p {
 
 
     .citat h1 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
 
     #infografik h2 {
-        font-size: 4rem;
+        font-size: 3rem;
         text-align: start;
+        margin: 25px;
     }
 
 
 
     #spisloes h1 {
-        font-size: 4rem;
+        font-size: 3rem;
 
 
     }
@@ -454,27 +466,14 @@ p {
 
 
 
-    #infografik h3 {
-        font-size: 2.5rem;
-    }
-
     #infografik h2 {
         font-size: 5rem;
+        margin: 25px;
     }
 
-
-}
-
-
-/***** MEDIA QUERIES IPAD SLUT ****/
-
-
-
-/***** MEDIA QUERIES WEB ****/
-
-@media only screen and (min-width: 1024px) {
     .citat h1 {
         font-size: 5rem;
+        margin: 25px;
     }
 
 
@@ -651,6 +650,11 @@ p {
     #storytelling p {
 
         padding-left: 100px;
+
+    }
+
+    #spisloes h1 {
+        font-size: 4rem;
 
     }
 
