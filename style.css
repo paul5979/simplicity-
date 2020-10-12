@@ -199,7 +199,7 @@ p {
 }
 
 .navbar-light .navbar-toggler {
-    color: white;
+    color: rgba(255, 255, 255, 0.39);
     border: none;
 }
 
