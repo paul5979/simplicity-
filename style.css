@@ -403,6 +403,12 @@ h3 {
     }
 
 
+    #infografik img {
+        width: 80%;
+        margin-top: 25px;
+
+    }
+
 
     #spisloes h1 {
         font-size: 3rem;
@@ -479,6 +485,14 @@ h3 {
     #infografik h2 {
         font-size: 5rem;
         margin: 25px;
+    }
+
+
+
+    #infografik img {
+        width: 80%;
+        margin-top: 25px;
+
     }
 
     .citat h1 {
@@ -665,6 +679,7 @@ h3 {
 
     #spisloes h1 {
         font-size: 4rem;
+        margin: 100px;
 
     }
 
