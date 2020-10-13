@@ -97,7 +97,7 @@ nav {
 
 /**** FOOTER  ***/
 
-.socialemedier img {
+.some img {
     margin-top: 20px;
     margin-right: 10px;
     margin-bottom: 40px;
@@ -108,6 +108,10 @@ nav {
 footer p {
     font-size: 0.8rem;
     color: white;
+}
+
+#socialemedier img {
+    margin-bottom: 20px;
 }
 
 /**** FOOTER SLUT ***/
@@ -426,7 +430,9 @@ p {
 
     }
 
-
+    #socialemedier img {
+        margin-bottom: 40px;
+    }
 
 
 }
@@ -654,7 +660,7 @@ p {
 
 
 
-    .socialemedier img {
+    .some img {
 
         justify-content: space-around;
 
