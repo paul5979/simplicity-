@@ -117,10 +117,12 @@ footer p {
 /**** FOOTER SLUT ***/
 
 .form-control {
+    margin: 10px;
 
+    width: 90%;
 
-    width: 80%;
 }
+
 
 
 
@@ -203,6 +205,9 @@ p {
 }
 
 
+h3 {
+    font-size: 1.4rem;
+}
 
 /***** GENERELLE TEKST INDSTILLINGER SLUT ****/
 
@@ -670,9 +675,10 @@ p {
 
 
     .form-control {
-
-
+        margin-top: 10px;
+        margin-bottom: 10px;
         width: 40%;
+
     }
 
     p {
