@@ -138,17 +138,25 @@ footer p {
 }
 
 
+
 button {
     color: #FFA7C1;
     border-color: #FFA7C1;
     font-family: Avenir;
     padding: 10px 20px 10px 20px;
+    cursor: pointer;
 
 }
 
 button:hover {
     opacity: 50%;
 }
+
+
+.modal-backdrop {
+    z-index: -1;
+}
+
 
 
 #storytelling img {
