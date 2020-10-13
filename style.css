@@ -97,10 +97,13 @@ nav {
 
 /**** FOOTER  ***/
 
-.some {
+.socialemedier img {
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 40px;
     width: 35px;
+    justify-content: space-between;
 }
-
 
 footer p {
     font-size: 0.8rem;
@@ -110,9 +113,9 @@ footer p {
 /**** FOOTER SLUT ***/
 
 .form-control {
-    /*    margin-left: 50px;*/
 
-    width: 60%;
+
+    width: 80%;
 }
 
 
@@ -177,9 +180,6 @@ button:hover {
 
 
 
-#socialemedier img {
-    margin-bottom: 40px;
-}
 
 #spisloes h1 {
     margin-bottom: 100px;
@@ -650,6 +650,23 @@ p {
     footer p {
         font-size: 1.2rem;
 
+    }
+
+
+
+    .socialemedier img {
+
+        justify-content: space-around;
+
+    }
+
+
+
+
+    .form-control {
+
+
+        width: 40%;
     }
 
     p {
