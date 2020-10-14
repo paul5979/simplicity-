@@ -112,7 +112,10 @@ footer p {
 
 #socialemedier img {
     margin-bottom: 20px;
+    margin-top: 20px;
 }
+
+
 
 /**** FOOTER SLUT ***/
 
@@ -203,9 +206,9 @@ button:hover {
 
 
 #spisloes h1 {
-    margin-bottom: 100px;
-    margin-top: 100px;
-    font-size: 2.8rem;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    font-size: 2rem;
 
 }
 
@@ -225,6 +228,63 @@ h3 {
 }
 
 /***** GENERELLE TEKST INDSTILLINGER SLUT ****/
+
+/***** PADDING INDSTILLINGER ****/
+#storytelling {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#friskenyheder {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#produkt1 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#produkt2 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#godstartpaadagen {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#yogaevent {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#socialemedier {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#spisloes {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/***** PADDING INDSTILLINGER SLUT ****/
+
+
 
 
 /***** BOUNCE animationer væk på splash ****/
@@ -324,7 +384,7 @@ h3 {
 }
 
 #produkt2 img {
-    margin-bottom: 80px;
+    margin-bottom: 0px;
 
 }
 
@@ -423,13 +483,13 @@ h3 {
 
 
     #friskenyheder p {
-        margin-left: 200px;
-        margin-right: 200px;
+        margin-left: 100px;
+        margin-right: 100px;
     }
 
     #yogaevent p {
-        margin-left: 200px;
-        margin-right: 200px;
+        margin-left: 100px;
+        margin-right: 100px;
     }
 
 
@@ -456,9 +516,19 @@ h3 {
 
     }
 
+    #produkt2 img {
+        margin-bottom: 80px;
+
+    }
+
     #socialemedier img {
         margin-bottom: 40px;
+        margin-top: 20px;
     }
+
+
+
+
 
 
 }
@@ -646,6 +716,7 @@ h3 {
         padding-left: 100px;
 
 
+
     }
 
     #produkt1 p {
@@ -677,7 +748,6 @@ h3 {
     }
 
     #storytelling p {
-
         padding-left: 100px;
 
     }
@@ -715,6 +785,61 @@ h3 {
         font-size: 1.2rem;
     }
 
+
+    /***** PADDING INDSTILLINGER ****/
+    #storytelling {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    #friskenyheder {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    #produkt1 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    #produkt2 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    #godstartpaadagen {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    #yogaevent {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    #socialemedier {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    #spisloes {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .footer {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    /***** PADDING INDSTILLINGER SLUT ****/
 
 
 }
