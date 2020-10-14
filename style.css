@@ -536,6 +536,18 @@ h3 {
 
 @media only screen and (min-width: 1024px) {
 
+
+    #socialemedier img:hover {
+        transform: scale(1.02);
+    }
+
+
+    #socialemedier img {
+        margin-bottom: 80px;
+
+    }
+
+
     h1 {
         font-size: 3rem;
     }
@@ -754,7 +766,7 @@ h3 {
 
     #spisloes h1 {
         font-size: 4rem;
-        margin: 100px;
+        margin: 180px;
 
     }
 
